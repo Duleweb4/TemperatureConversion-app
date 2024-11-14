@@ -1,0 +1,59 @@
+body
+{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+}
+#container
+{
+    background-color: white;
+    margin-top: auto;
+    max-width: 360px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.220);
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+}
+#naslov
+{
+    color: rgb(0, 132, 255);
+}
+#unos
+{
+    width: 60%;
+    font-size: 2em;
+    font-weight: bold;
+    border: 2px solid black;
+    text-align: center;
+}
+.lejbel
+{
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#submit
+{
+    background-color: tomato;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#submit:hover
+{
+    background-color: rgba(255, 99, 71, 0.9);
+}
+#submit:active
+{
+    background-color: rgba(255, 99, 71, 0.8);
+}
+#rezultat
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
